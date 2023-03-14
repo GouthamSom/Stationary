@@ -1,0 +1,158 @@
+<?php 
+include("config.php");
+
+
+
+
+?>
+
+
+
+
+<html>
+    <title>Stationary</title>
+    <head>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Stationary.css" rel="stylesheet">
+        <script src="Stationary.js"></script>
+    </head>
+       <body class="Sta-bod">
+        <div class="container">
+          
+            <div class="heading">
+                <h1 class="heading1">Stationary_name</h1>
+                 <h2 class="heading2">nani.soma87@gmail.com</h2>
+                <h3 class="heading3">+91-9656565656</h3>
+                <h3 class="heading4"><a href="admin.html">admin</a></h3>
+                <h3 class="heading5"><a href="cart.html">cart</a></h3> 
+                <h3 class="heading6"><a href="staff.html">staff</a></h3>
+                    
+            </div>
+        <div class="col-md-12">
+            <div class="nav-bar">
+                <ul class="nav-bar-ul">
+                    <a href="home.html">home</a>
+                    <a href="About.html">About</a>
+                   <div class="dropdown">
+                        <button class="dropbtn">School</button>
+                            <div class="dropdown-content">
+                          <a href="nur-ukg.html">nur-ukg</a>
+                           <a href="1-4.html">1-4</a>
+                           <a href="5-7.html">5-7</a>
+                             <a href="8-10.html">8-10</a>
+                        </div>
+                        </div>
+               
+              
+                    <div class="dropdown">
+                        <button class="dropbtn">College</button>
+                            <div class="dropdown-content">
+                        
+                              
+                            <a href="Bipc.html">Bipc</a>
+                            <a href="MPC.html">MPC</a>
+                            <a href="CEC.html">CEC</a>
+                            <a href="MEC.html">MEC</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">UnderGraduate</button>
+                                <div class="dropdown-content">
+                   
+                                <a href="B.Sc_com.html">B.Sc_com</a>
+                            <a href="B.Com_com.html">B.Com_com</a>
+                            <a href="BBM.html">BBM</a>
+                            <a href="Biotechnology.html">Biotechnology</a>
+                          
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">PostGraduate</button>
+                                <div class="dropdown-content">
+                   
+                                <a href="M.Tech.html">M.Tech</a>
+                            <a href="MCA.html">MCA`</a>
+                            <a href="MBA.html">MBA</a>
+                            
+                                </div>
+                            </div>
+                    <a href="kids.html">Kids</a>
+                    
+                </ul>
+            </div>
+            
+            </div>
+
+
+  
+                <div class="carousel">
+
+        -<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="G:\stationary\images\asdas.jpg" alt="First slide">
+              </div>
+            - <div class="carousel-item">
+                <img class="d-block w-100" src="G:\stationary\images\asdas.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="G:\stationary\images\asdas.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="G:\stationary\images\asdas.jpg" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="G:\stationary\images\asdas.jpg" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        </div>
+
+            <div class="row">
+            <div class="col-md-6">
+             <img class="abt-img" src="" alt="about-content">
+             </div>
+
+             <div class="col-md-6">
+               
+             <div class="card" style="padding-top: 20px; margin-top: 25px; background-color:orangered"> 
+               
+                <div class="card-body">                          
+                    <div class="float-center">                  
+                        <div class="rounded-circle">
+                  <h5 class="card-title" style="padding-left: 250px; color:orange;">About</h5>
+                  <p class="card-text">We are into local business started with small scale level.
+                    As we are into Stationary business, all kinds of <span style="color:wheat;">syllabus books</span> 
+                        includes schools,colleges,under graduate, post graduate.We provide<span style="color: wheat;"> home delivery upto 10km from
+                        our store</span>. And the items should exceeds more than 10..</p>
+                  <a href="file:///F:/Goutham/HOME1/About.html" style="padding-left: 250px; color:azure">Read more</a>
+                     </div>
+                    </div>
+                </div>
+              </div>
+         </div>
+        </div>
+        </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card" style="background-color: orangered;">
+            <h3 class="card-title" style="padding-left: 250px; color: orange; margin-top: 30px;">Services</h3>
+           <span style="color:wheat; padding-left: 150px;"> Home delivery</span>
+          <span style="color:wheat; padding-left: 150px;">online payments</span>
+          <a href="file:///F:/Goutham/HOME1/cart.html" style="padding-left: 250px; color:wheat; margin-top: 35px; margin-bottom: 25px;">Read more</a>
+                
+            
+        </div>
+    </div>
+</div>
+
+  </div>
+ 
+    </body>
+</html>
