@@ -22,15 +22,6 @@ $result=mysqli_query($conn,$sql);
 
 
 
-
-
-if($result)
- {
-    
-    header("location:display.php");
-
- }
-
 }
 
 
@@ -60,8 +51,7 @@ if($result)
             <div class="card" style="margin-top: auto; padding-left: 100px;"> 
               
                <div class="card-body" style="margin-top: auto; float:left;" >                        
-                      <?php include('sidebar.php');?>
-                      
+                     
                  <h5 class="card-title" >Registration</h5>
                 <marquee> <p class="card-text">Please fill the details in the form given below</p></marquee>
                                       

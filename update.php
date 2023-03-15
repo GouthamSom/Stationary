@@ -117,10 +117,6 @@ include("config.php");
 $id=$_GET['updateid'];
 
 
-
-
-
-
 if(isset($_POST['submit']))
 
 {
@@ -146,7 +142,10 @@ $sql="UPDATE `employee` SET `id`='$id',`first name`='$fname',`last name`='$lname
 $result=mysqli_query($conn,$sql);
 
 
-
+if($result)
+{
+    header("location:display.php");
+}
 
 
 

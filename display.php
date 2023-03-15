@@ -75,7 +75,10 @@ $dis1=mysqli_query($conn,$dis);
     
 
 
-?>
+
+    
+   ?>
+
 
 </table>   
 </body>

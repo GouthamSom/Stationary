@@ -35,7 +35,7 @@
                             <div class="dropdown">
                         <button class="dropbtn">Products</button>
                             <div class="dropdown-content">
-                            <a href="products.php">products</a>
+                            <a href="product.html">products</a>
                         </div>
                         </div>
 

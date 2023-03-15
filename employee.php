@@ -26,13 +26,9 @@ $sql=" INSERT INTO `employee`(`first name`, `last name`, `middle name`, `email`,
 
 
 
-$result=mysqli_query($conn,$sql);
+$des=mysqli_query($conn,$sql);
 
 
-if($result)
-{
-    header("location:display.php");
-}
 }
 
 
@@ -57,8 +53,7 @@ if($result)
 
     <body>    
                  
-
-    <?php include('sidebar.php');?>
+<?php include('sidebar.php');?>
 
                   <div class="col-md-8">
             <div class="card" style="margin-top: auto; padding-left:auto; margin:120px;"> 
@@ -127,6 +122,7 @@ if($result)
                     <label for="performance" style="padding-left: 200px; color:orange;">performance</label>
                     <textarea id="text"  style="padding-left: 200px; color:orange;"></textarea><br>
 
+                    <input type="file" name="uploadfile" src="" value="" ><br>
 
 
 
